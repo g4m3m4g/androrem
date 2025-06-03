@@ -1,0 +1,9 @@
+<h2>📲 Installed Apps</h2>
+<ul>
+  {% for pkg in packages %}
+    <li>
+      {{ pkg }}
+      <a href="/launch/{{ pkg }}">▶️ Launch</a>
+    </li>
+  {% endfor %}
+</ul>
