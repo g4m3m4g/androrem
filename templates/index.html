@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AndroRem</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      img {
+        width: 300px;
+        border-radius: 10px;
+      }
+      a.button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        background: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📱 Android Remote Controller</h1>
+    <a href="/open_chrome" class="button">Open Chrome</a>
+    <a href="/screenshot" class="button">Take Screenshot</a>
+    <a href="/tap/500/1200" class="button">Tap (500, 1200)</a>
+    <a href="/swipe/500/1600/500/400" class="button">Swipe Up</a>
+
+    <div>
+      <h3>Latest Screenshot:</h3>
+      <img src="/static/screenshot.png" alt="No Screenshot Yet" />
+    </div>
+  </body>
+</html>
